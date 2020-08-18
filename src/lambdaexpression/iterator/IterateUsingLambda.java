@@ -17,7 +17,9 @@ public class IterateUsingLambda {
 		     System.out.println("Item Name: " + entry.getKey() + " and Price: " + entry.getValue());
 		 }
 
-        //TODO: Please Implement Lambda Iteration on itemPrice map
+        // Please Implement Lambda Iteration on itemPrice map
+        System.out.println("-------------------------------------------------------------------------------------------------------");
+        itemPrice.entrySet().stream().forEach(item -> System.out.println("Item Name : "+ item.getKey()+ " ---> Item Value: "+item.getValue()));
 
 
     }

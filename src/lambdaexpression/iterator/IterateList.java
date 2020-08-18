@@ -18,14 +18,28 @@ public class IterateList {
         Laptop laptop = new Laptop() {
             @Override
             public void ramSize(int memorySize) {
-
+                System.out.println("Ram Size is "+ memorySize+" GB");
             }
 
             @Override
             public void monitorSize(int screenSize) {
-
+                System.out.println("Monitor Size is "+ screenSize+" inches");
             }
+
         };
+
+
+
+
+        for (String item : electronicsList) {
+            if (item.equalsIgnoreCase("monitor")){
+
+               laptop.monitorSize(14);
+            }
+            else if (item.equalsIgnoreCase("tablet")){
+                laptop.ramSize(8);
+            }
+        }
 
 
 
@@ -43,5 +57,6 @@ public class IterateList {
 
         //Please implement stream iteration through electronicsList
         System.out.println("iterate using Stream for each loop");
+        electronicsList.stream().forEach(item -> System.out.println(item));
     }
 }
