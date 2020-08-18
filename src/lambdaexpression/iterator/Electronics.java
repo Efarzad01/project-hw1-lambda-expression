@@ -1,4 +1,4 @@
-package lambdaexpression.iterator;
+package src.lambdaexpression.iterator;
 
 public class Electronics {
     static void countWordLength(String st) {
