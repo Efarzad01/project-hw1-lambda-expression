@@ -1,8 +1,9 @@
-package lambdaexpression.iterator;
+package src.lambdaexpression.iterator;
+
+import src.lambdaexpression.anonymous.Laptop;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class IterateList {
     public static void main(String[] args) {
@@ -14,6 +15,17 @@ public class IterateList {
 
         //Please implement Anonymous class to iterate through
         System.out.println("Using Anonymous class");
+        Laptop laptop = new Laptop() {
+            @Override
+            public void ramSize(int memorySize) {
+
+            }
+
+            @Override
+            public void monitorSize(int screenSize) {
+
+            }
+        };
 
 
 

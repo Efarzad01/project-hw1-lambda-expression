@@ -1,4 +1,4 @@
-package lambdaexpression.iterator;
+package src.lambdaexpression.iterator;
 
 import java.util.HashMap;
 import java.util.Map;

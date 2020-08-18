@@ -1,4 +1,4 @@
-package lambdaexpression.anonymous;
+package src.lambdaexpression.anonymous;
 
 public interface Laptop {
 
