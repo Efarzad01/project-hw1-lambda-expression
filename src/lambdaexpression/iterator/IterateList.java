@@ -44,11 +44,4 @@ public class IterateList {
         //Please implement stream iteration through electronicsList
         System.out.println("iterate using Stream for each loop");
     }
-
-}
-
-class Electronics {
-    static void countWordLength(String st) {
-        System.out.println(st.length());
-    }
 }
